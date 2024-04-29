@@ -1,0 +1,14 @@
+CREATE TABLE Livro (
+	id_livro int AUTO_INCREMENT,
+    titulo varchar(100),
+    autor varchar(100),
+    ano_publicacao int,
+    PRIMARY KEY (id_livro)
+);
+
+CREATE TABLE Usuario (
+	id_usuario int AUTO_INCREMENT,
+    email varchar(100),
+    senha varchar(50),
+    primary key (id_usuario)
+)
